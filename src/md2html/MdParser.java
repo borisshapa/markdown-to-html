@@ -6,7 +6,7 @@ import static md2html.MarkdownSource.END;
 
 public class MdParser {
     private final MarkdownSource source;
-    private Deque<String> stack = new ArrayDeque<>();
+    private final Deque<String> stack = new ArrayDeque<>();
 
     public MdParser(MarkdownSource source) {
         this.source = source;
